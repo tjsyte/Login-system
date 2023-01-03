@@ -1,0 +1,86 @@
+html {
+  font-size: 17px;
+  background-color: #E3BC9A;
+  color: rgb(255, 255, 255);
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+  "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+  monospace;
+}
+
+.card-container {
+  cursor: pointer;
+  position: relative;
+}
+
+.card { 
+  transform-style: preserve-3d;
+  transition: all 4.5s ease-in-out;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card .back {
+  transform: rotateY(180deg);
+}
+
+.front-side {
+  top: 60px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  font-size: 16px;
+  margin: 20px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #122529;
+  box-shadow: 0 6px 12px 0 rgba(64,64,64);
+}
+
+.back-side {
+  top: 60px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  font-size: 14px;
+  margin: 20px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;  
+  background-color: #122529;
+  box-shadow: 0 6px 12px 0 rgba(64,64,64);
+}
+
+.blue {
+  color: #ADD8E6;
+}
+
+.gray {
+  color: #808080;
+}
+
+.green {
+  color: #90EE90;
+}
+
+.purple {
+  color: #BA55D3;
+}
+
+.cyan {
+  color: #00FFFF;
+}
+
+.red {
+  color: #DC143C;
+}
