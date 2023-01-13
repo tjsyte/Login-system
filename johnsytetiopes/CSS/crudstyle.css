@@ -1,0 +1,121 @@
+html {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    background-color: #E3BC9A;
+}
+
+body {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 780px) {
+    .container {
+        width: 850px;
+    }
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 3px solid #ADD8E6;
+    background-color: #122529;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.pull-left {
+    padding-right: 10px;
+}
+
+.pull-left {
+    float: left
+    !important
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td:hover, th:hover {
+    background-color: #1A1A1A;
+}
+
+td, th {
+    border: 1px solid #1A1A1A;
+    text-align: left;
+    padding: 8px;
+}
+
+.button {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+    padding: 8px 12px;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #f44336;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #f44336;
+    color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button:disabled {
+    pointer-events: none;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    width: 90px;
+    cursor: pointer;
+}
+
+.btn-warning:hover {
+    color: #ADD8E6;
+}
+
+.btn-danger:hover {
+    color: #f44336;
+}
+
+
+
+
+
+
